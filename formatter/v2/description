@@ -1,0 +1,14 @@
+
+
+comment
+-start "\/\*"
+-end "\*\/"
+-inline "#|(?=\/\/)"
+
+commandbreaker
+";"
+		
+codebracket
+-start "\{"
+-end "\}"
+
